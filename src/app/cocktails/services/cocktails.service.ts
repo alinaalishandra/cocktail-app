@@ -45,7 +45,7 @@ export class CocktailsService {
     this.toggleLoading(true);
 
     return this.httpClient.get<CocktailResponse>(url).pipe(
-      map((res: CocktailResponse) => res.drinks.at(0)),
+      map((res: CocktailResponse) => (res.drinks || []).at(0)),
       tap(drink => this.randomDrink$.next(drink)),
       catchError(this.handleError.bind(this)),
       finalize(() => this.toggleLoading(false)),
