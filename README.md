@@ -1,5 +1,22 @@
 # CocktailApp
 
+Приложение предназначено для поиска рецептов коктейлей и использует
+[TheCocktailDB API](https://www.thecocktaildb.com/api.php) в качестве источника данных.
+
+## Главный экран
+
+Отображает только header со следующими кнопками навигации:
+
+- На стартовую страницу (иконка домика)
+- На страницу поиска рецепта (иконка фильтра/имитация бокала)
+
+## '/cocktails' - Страница для поиска и отображения найденных рецептов
+
+Поисковая панель предназначена для ввода названия коктейля.
+Рядом две кнопки: “Поиск коктейля по введенному значению” и “Поиск случайного рецепта”
+
+## '/cocktails/{:cocktailId}' - Страница для отображения выбранного рецепта
+
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.7.
 
 ## Development server
@@ -11,20 +28,6 @@ ng serve
 ```
 
 Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
-
-## Code scaffolding
-
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
-```
-
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
-```
 
 ## Building
 
@@ -51,9 +54,3 @@ For end-to-end (e2e) testing, run:
 ```bash
 ng e2e
 ```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
