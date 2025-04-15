@@ -3,19 +3,19 @@
 Приложение предназначено для поиска рецептов коктейлей и использует
 [TheCocktailDB API](https://www.thecocktaildb.com/api.php) в качестве источника данных.
 
-## Главный экран
+## [Главный экран](https://alinaalishandra.github.io/cocktail-app/)
 
 Отображает только header со следующими кнопками навигации:
 
 - На стартовую страницу (иконка домика)
 - На страницу поиска рецепта (иконка фильтра/имитация бокала)
 
-## '/cocktails' - Страница для поиска и отображения найденных рецептов
+## ['/cocktails'](https://alinaalishandra.github.io/cocktail-app/cocktails) - Страница для поиска и отображения найденных рецептов
 
 Поисковая панель предназначена для ввода названия коктейля.
 Рядом две кнопки: “Поиск коктейля по введенному значению” и “Поиск случайного рецепта”
 
-## '/cocktails/{:cocktailId}' - Страница для отображения выбранного рецепта
+## ['/cocktails/{:cocktailId}'](https://alinaalishandra.github.io/cocktail-app/cocktails/178362) - Страница для отображения выбранного рецепта
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.7.
 
