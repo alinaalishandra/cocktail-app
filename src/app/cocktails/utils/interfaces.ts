@@ -3,6 +3,7 @@ export interface CocktailResponse {
 }
 
 export interface Cocktail {
+  // Идентификатор напитка
   idDrink: string;
   // Название коктейля
   strDrink: string;
