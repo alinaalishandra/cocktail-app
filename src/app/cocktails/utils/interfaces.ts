@@ -10,7 +10,6 @@ export interface Cocktail {
   strGlass: string;
   strDrinkThumb: string;
   strInstructions: string;
-
   // Список ингредиентов
   [key: `strIngredient${number}`]: string;
 }
